@@ -1,0 +1,56 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 26, 26);
+}
+
+.wrapper {
+    max-width: 960px;
+    margin: 20px auto;
+}
+
+.header,
+.footer,
+.section,
+.aside,
+.nav {
+    padding: 20px;
+    width: 94%;
+    background-color: #ccc;
+    margin: 10px;
+    text-align: center;
+}
+
+.section, .aside {
+    width: 43%;
+}
+
+.section {
+    float: left;
+}
+
+.article {
+    color: #fff;
+    margin-top: 20px;
+    background-color: rgb(27, 26, 26);
+    padding: 20px 20px;
+}
+
+.aside {
+    float: right;
+    padding-bottom: 204px;
+}
+
+.footer {
+    clear: both;
+}
+
+.header2, .para {
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+    width: 95%;
+    background-color: #ccc;
+}
+
